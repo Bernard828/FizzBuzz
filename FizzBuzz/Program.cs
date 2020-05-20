@@ -6,6 +6,9 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
+            for (int i = FizzBuzz.Length; i++)
+            { 
+            }
             Console.WriteLine("Fizz Buzz!");
         }
     }
