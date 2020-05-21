@@ -6,8 +6,8 @@ namespace FizzBuzz
 {
     public class FizzBuzz
     {
-        public string Get (int num)
-        { 
+        public string Get(int num)
+        {
             return null;
         }
     }
