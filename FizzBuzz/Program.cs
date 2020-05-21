@@ -6,10 +6,6 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            while (myNumber <= 200)
-                {
-
-            }
             Console.WriteLine("Fizz Buzz!");
         }
     }

@@ -5,16 +5,18 @@ namespace FizzBuzz.Tests
 {
     public class FizzBuzzTests
     {
-        public void Number_Divisible_By_Three_State_Fizz()
-        {
+        [Fact]
+        public void Test1() //Get returns 3 for fizz?
+        { 
             //Arrange
 
             //Act
 
+
             //Assert
-            var FizzBuzz = new myNumber(3)
-            var resultt = FizzBuzz.Get(3)
-            Assert.Equals("0", result);
+            var fizzBuzz = new MyNumber();
+            var resultt = FizzBuzz.Get(3);
+            Assert.Equals("3", result);
         }
         //public void Number_Divisible_By_Five()
         //{
