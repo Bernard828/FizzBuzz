@@ -6,9 +6,10 @@ namespace FizzBuzz
 {
     public class FizzBuzz
     {
-        public string Get(int num)
-        {
-            return null;
-        }
+        private string fizz;
+
+        public string Fizz { get; set; }
+
+        public string (int num) => "3";
     }
 }

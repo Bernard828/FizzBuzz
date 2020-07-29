@@ -9,13 +9,12 @@ namespace FizzBuzz.Tests
         public void Test1() //Get returns 3 for fizz?
         { 
             //Arrange
+            var fizzBuzz = new MyNumber();
 
             //Act
-
-
-            //Assert
-            var fizzBuzz = new MyNumber();
             var resultt = FizzBuzz.Get(3);
+
+            //Assert                   
             Assert.Equals("3", result);
         }
         //public void Number_Divisible_By_Five()
